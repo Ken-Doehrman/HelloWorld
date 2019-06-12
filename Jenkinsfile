@@ -13,6 +13,8 @@ pipeline {
         }
         stage('Run') { 
             steps {
+                sh "pwd"
+                sh "ls -l"
                 sh "./HelloWorld.sh"
             }
         }
