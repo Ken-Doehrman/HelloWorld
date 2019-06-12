@@ -15,7 +15,7 @@ pipeline {
             steps {
                 sh "pwd"
                 sh "ls -l"
-                sh "/root/.jenkins/workspace/PipelineTestUsingGitJenkinsfile/HelloWorld.sh"
+                sh "/apps/git/HelloWorld/HelloWorld.sh"
             }
         }
     }
